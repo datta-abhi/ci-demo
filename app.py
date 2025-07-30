@@ -6,7 +6,8 @@ def subtract(a, b):
     return a-b
 
 
-result1 = add(3, 5)
-result2 = subtract(3, 5)
+if __name__ == "__main__":
+    result1 = add(3, 5)
+    result2 = subtract(3, 5)
 
-print((result1, result2))
+    print((result1, result2))
